@@ -1,0 +1,21 @@
+include partials/header.pug
+body(style="font-family: 'Montserrat', sans-serif;")
+	include partials/nav.pug
+	br
+	.grid-container 
+		.grid-x
+			.cell.large-3.medium-2.small-1
+			.cell.large-6.medium-8.small-10.text-center
+				h6
+					b Long Island
+					br
+					br
+					| (516) 851-3067
+					br
+					br
+					| 27 Marwood North Road
+					br
+					| Manorhaven, NY 11050
+				iframe(width="100%", height='450', frameborder='0', src='https://www.google.com/maps/embed/v1/place?key=AIzaSyC3hygtu0k4CgBe1_Uu4Cak_yCjquRhmAI&q=27+Marwood+North+Road+Manorhaven+NY+11050', allowfullscreen='')
+			.cell.large-3.medium-2.small-1
+	include partials/footer.pug
